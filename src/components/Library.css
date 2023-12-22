@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.body{
+  margin: 2em;
+}
+
+.library{
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+.main{
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:space-evenly;
+  display: flex;
+}
+
+#search-book-name{
+  align-self: center;
+  border-radius: 25px;
+  width: 70vmin;
+  padding-left: 5vh;
+  height: 7vmin;
+}
+
+.book{
+  justify-content: center;
+  box-shadow: 12px 12px 7px rgb(157, 45, 107);
+  margin: 3em;
+  border-radius: 12rem;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.book-image{
+  border-radius: 7rem;
+  margin-top:7vh;
+}
+
+.book-image-source{
+  box-shadow: 12px 12px 7px rgb(157, 45, 107);
+  border-radius: 3rem;
+}
+
+.book-title{
+  padding-top: 9px;
+  text-align: center;
+  margin-top: 0px;
+  width: 53vh;
+}
+
+.registration-button{
+  cursor: pointer;
+  box-shadow: 3px 3px 0px 1px rgb(157, 45, 107);
+  font-size: xx-large;
+  color: rgb(4, 0, 128);
+  background-color: rgb(231, 230, 222);
+  position: relative;
+  font-weight: 400;
+  height: 8vmin;
+  text-align: center; 
+  border: solid 1px rgb(157, 45, 107);
+  width: 30vmin;
+}
+
+.registration-button:hover{
+  transition: 0.7s;
+  box-shadow: 3px 3px 0px 1px rgb(210, 205, 205);
+  border: 0px;
+  background-color:#745d95;
+  color: rgb(231, 230, 222);
+}
+ 
+.registration-button:hover::after{
+  background-color: black;
+  box-shadow: none;
+}
+
+.user-name{
+  color: black;
+  font-size: xx-large;
+  text-shadow: 5px;
+}
+
+.app-name{
+  font-size: xxx-large;
+  color: black;
+} 
+
+.book-price{
+  color: rgb(200, 225, 59);
+}
+
+.no-book-found{
+  color:blue;
+  margin: 27vh;
+  text-align: center;
+}
+
+.author{
+  word-wrap: normal;
+}
